@@ -75,7 +75,7 @@ window.Terminus={
             console.log(this.options)
             this.statementPrefix = 'term'+this.options.editor.pointerCharacter;
             // Initial message
-            this.editor.fn.appendOutput('Welcome to the console! Enter JavaScript commands below and press Enter to execute.', false);
+            this.editor.fn.appendOutput('Welcome to Terminus! Enter JavaScript commands below and press Enter to execute.', false);
             this.editor.fn.readyForStatement();
         });
         } 
